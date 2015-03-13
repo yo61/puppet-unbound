@@ -27,7 +27,7 @@ class unbound::params {
       $owner            = 'unbound'
       $group            = 'unbound'
       $pidfile          = undef
-      $fetch_client     = 'wget -O'
+      $fetch_client = 'curl -o'
     }
     'darwin': {
       $confdir          = '/opt/local/etc/unbound'
