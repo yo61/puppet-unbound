@@ -23,9 +23,9 @@ class unbound::params {
       $service_name     = 'unbound'
       $package_name     = 'unbound'
       $package_provider = undef
-      $runtime_dir      = $confdir
-      $owner            = 'unbound'
-      $group            = 'unbound'
+      $runtime_dir  = '/var/lib/unbound'
+      $owner        = 'unbound'
+      $group        = 'unbound'
       $pidfile          = undef
       $fetch_client = 'curl -o'
     }
